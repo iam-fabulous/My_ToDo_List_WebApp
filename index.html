@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo List WebApp</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 class="title"> My ToDo List</h1>
+        </header>
+        <div class="days">
+            <div class="day">
+                <h2>Daily Tasks</h2>
+                
+                <form id="search-tasks">
+            		<input type="text" placeholder="Search tasks..." />
+          		</form>
+                <span>Tasks</span>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                </ul>
+                <form id="add-task">
+                    <input type="text" placeholder="Add a new task..." />
+                    <button>Add</button>
+                </form>
+            </div>
+            <!-- <div class="day">
+                <h2>Tuesday</h2>
+                
+                <form id="search-tasks">
+            		<input type="text" placeholder="Search tasks..." />
+          		</form>
+                  <span>Tasks</span>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                </ul>
+                <form id="add-task">
+                    <input type="text" placeholder="Add a new task..." />
+                    <button>Add</button>
+                </form>
+            </div>
+            <div class="day">
+                <h2>Wednesday</h2>
+                
+                <form id="search-tasks">
+            		<input type="text" placeholder="Search tasks..." />
+          		</form>
+                <span>Tasks</span>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                </ul>
+                <form id="add-task">
+                    <input type="text" placeholder="Add a new task..." />
+                    <button>Add</button>
+                </form>
+            </div>
+            <div class="day">
+                <h2>Thursday</h2>
+                
+                <form id="search-tasks">
+            		<input type="text" placeholder="Search tasks..." />
+          		</form>
+                <span>Tasks</span>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                </ul>
+                <form id="add-task">
+                    <input type="text" placeholder="Add a new task..." />
+                    <button>Add</button>
+                </form>
+            </div>
+            <div class="day">
+                <h2>Friday</h2>
+                
+                <form id="search-tasks">
+            		<input type="text" placeholder="Search tasks..." />
+          		</form>
+                <span>Tasks</span>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                </ul>
+                <form id="add-task">
+                    <input type="text" placeholder="Add a new task..." />
+                    <button>Add</button>
+                </form>
+            </div>
+            <div class="day">
+                <h2>Saturday</h2>
+                
+                <form id="search-tasks">
+            		<input type="text" placeholder="Search tasks..." />
+          		</form>
+                <span>Tasks</span>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                </ul>
+                <form id="add-task">
+                    <input type="text" placeholder="Add a new task..." />
+                    <button>Add</button>
+                </form>
+            </div>
+            <div class="day">
+                <h2>Sunday</h2>
+                
+                <form id="search-tasks">
+            		<input type="text" placeholder="Search tasks..." />
+          		</form>
+                <span>Tasks</span>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="done" id="">
+                        <span class="task">Create A Working Application</span>
+                        <span class="delete">delete task</span>
+                    </li>
+                </ul>
+                <form id="add-task">
+                    <input type="text" placeholder="Add a new task..." />
+                    <button>Add</button>
+                </form>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
